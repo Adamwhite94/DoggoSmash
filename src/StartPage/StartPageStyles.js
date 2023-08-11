@@ -33,10 +33,10 @@ cursor:pointer;
 
 `;
 const StartPageVideo = styled.video`
-width: 100%;
-height: 100%;
+height: 100vh;
 object-fit: cover;
 position: absolute;
+width: 100vw;
 
 `;
 
