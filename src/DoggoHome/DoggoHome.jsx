@@ -21,6 +21,7 @@ function DoggoHome() {
   const [gamecounter, setGameCounter] = useState(0);
   const [gameStart, setGameStart] = useState(true);
   const [endscreen, showEndScreen] = useState(false);
+ 
 
   const getData = async () => {
     const { data } = await axios.get(`https://dog.ceo/api/breeds/image/random`);
